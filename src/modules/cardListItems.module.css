@@ -1,0 +1,25 @@
+.cardContainer {
+  display: flex;
+  max-width: 550px;
+  margin: 20px auto;
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 16px;
+}
+
+.cardContainer img {
+  width: 150px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.cardInfo {
+  padding: 20px;
+}
+
+.cardInfo h1 {
+  margin: 20px 0;
+}
